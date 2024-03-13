@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queens</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 90px;
+        }
+
+        .queen {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .queen-bio {
+            text-align: left;
+        }
+
+        .queen-bio h2 {
+            margin-top: 0;
+        }
+
+        .queen img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+         /* Header Styles */
+        header {
+            background-color: #202020;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation Styles */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: 15px;
+            left: 50px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #202020;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* Pink Accent */
+        nav ul li a {
+            color: #ff69b4;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: #ff1493;
+        }
+                .social-media a {
+            display: inline-block;
+            margin-right: 20px;
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="logo.jpg" alt="Women With Wings Logo" class="logo">Women With Wings</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="board.html">Board</a></li>
+                    <li><a href="queens.html">Queens</a></li>
+                    <li><a href="ambassadors.html">Ambassadors</a></li>
+                    <li><a href="scholarship.html">Scholarship</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Queen 1 -->
+            <div class="queen">
+                <div class="queen-bio">
+                    <h2>Mrs Women With Wings</h2>
+                    <p>Beth Ramirez</p>
+                </div>
+                <img src="wings.jpg" alt="Queen 1">
+            </div>
+            
+            <!-- Queen 2 -->
+            <div class="queen">
+                <div class="queen-bio">
+                    <h2>Miss Hover With Wings</h2>
+                    <p>Lexi Hargis</p>
+                </div>
+                <img src="hover.jpg" alt="Queen 2">
+            </div>
+
+            <!-- Queen 3 -->
+            <div class="queen">
+                <div class="queen-bio">
+                    <h2>Miss Women With Wings Aviatrix</h2>
+                    <p>Alaska Robyn bird</p>
+                </div>
+                <img src="aviatrix.jpg" alt="Queen 3">
+            </div>
+
+            <!-- Queen 4 -->
+            <div class="queen">
+                <div class="queen-bio">
+                    <h2>Miss Diamond of the Sky</h2>
+                    <p>Alizsa Raquel</p>
+                </div>
+                <img src="diamond.jpg" alt="Queen 4">
+            </div>
+
+            <!-- Queen 5 -->
+            <div class="queen">
+                <div class="queen-bio">
+                    <h2>Miss Mother Aviatrix</h2>
+                    <p>Paula Murguia</p>
+                </div>
+                <img src="mother.jpg" alt="Queen 5">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Women With Wings. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/womenwithwings_/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/womenwithwings11/" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

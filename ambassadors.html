@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambassador Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 90px;
+            justify-items: center;
+        }
+
+        .logo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: 15px;
+            left: 50px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #202020;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation Styles */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px 0;
+        }
+
+        /* Ambassador Styles */
+        .ambassador-container {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .ambassador h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .ambassador img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .ambassador p {
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #202020;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* Pink Accent */
+        nav ul li a {
+            color: #ff69b4;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: #ff1493;
+        }
+
+        /* Social Media Links */
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin-right: 20px;
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #ff69b4;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="logo.jpg" alt="Women With Wings Logo" class="logo">Women With Wings</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="board.html">Board</a></li>
+                    <li><a href="queens.html">Queens</a></li>
+                    <li><a href="ambassadors.html">Ambassadors</a></li>
+                    <li><a href="scholarship.html">Scholarship</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<main>
+    <div class="container">
+        <div class="ambassador-container">
+            <section class="ambassador">
+                <h2>Kyathi Uyyala</h2>
+                <img src="kyathi.jpg" alt="Kyathi">
+                <p>"Hi! I'm a private pilot currently working on my instrument and commercial at Amercian Flyers in Addison, Texas! I'm also pursuing my bachelors degree at the University of North Texas, I'm majoring in Computer Science with a minor in Aviation Logistics. I have loved aviation ever since I was a kid and I hope to become an airline pilot in the future! I love Women With Wings because it gives us all a chance to share the gift of aviation. It is super inspiring and motivating hearing everyones acheivements and goals! I created this website :)"</p>
+            </section>
+        </div>
+
+        <div class="ambassador-container">
+            <section class="ambassador">
+                <h2>Dianne Escalona</h2>
+                <img src="dianne.jpg" alt="Dianne">
+                <p>"I am currently a flight attendant at United Airlines and a private pilot preparing for my instrument check ride. I go to school at UND in Phoenix. I hope to accomplish all my ratings up to CFII at UND and I enjoy being a Women with Wings ambassador because of all the amazing women I get to network and connect with. It's inspiring to be part of a community of strong women who are all working towards the same goal of increasing women pilots in the flight deck."</p>
+            </section>
+        </div>
+
+        <div class="ambassador-container">
+            <section class="ambassador">
+                <h2>Addison Cahal</h2>
+                <img src="addison.jpg" alt="Addison">
+                <p>"Howdy! I’m from Houston Texas and a sophomore in highschool. My dream is to become an Air Force Fighter Pilot, and I’m currently a student pilot. I’m also an active cadet in Civil Air Patrol."</p>
+            </section>
+        </div>
+    </div>
+</main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Women With Wings. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/womenwithwings_/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/womenwithwings11/" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

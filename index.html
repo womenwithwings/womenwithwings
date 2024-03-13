@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Women With Wings</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 90px;
+            justify-items: center;
+        }
+
+        .logo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: 15px;
+            left: 50px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #202020;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation Styles */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ff69b4;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: #ff1493;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px 0;
+        }
+
+        /* Welcome Section Styles */
+        .welcome-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .welcome-section h2 {
+            color: #ff69b4;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        .welcome-section p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Picture Column Styles */
+        .picture-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .picture-column img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #202020;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* Social Media Styles */
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin-right: 20px;
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #ff69b4;
+        }
+
+        /* Slideshow Styles */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .slideshow-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Next & Previous Buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="logo.jpg" alt="Women With Wings Logo" class="logo">Women With Wings</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="board.html">Board</a></li>
+                    <li><a href="queens.html">Queens</a></li>
+                    <li><a href="ambassadors.html">Ambassadors</a></li>
+                    <li><a href="scholarship.html">Scholarship</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <img src="slide1.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide2.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide3.jpg" style="width:500px">
+                </div>
+                <div class="mySlides">
+                    <img src="slide4.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide5.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide6.jpg" style="width:500px">
+                </div>
+                <div class="mySlides">
+                    <img src="slide7.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide8.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide9.jpg" style="width:500px">
+                </div>
+                <div class="mySlides">
+                    <img src="slide10.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide11.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide12.jpg" style="width:500px">
+                </div>
+                <div class="mySlides">
+                    <img src="slide13.jpg" style="width:500px">
+                </div>
+
+                <div class="mySlides">
+                    <img src="slide14.jpg" style="width:500px">
+                </div>
+
+            </div>
+
+            <div class="welcome-section">
+                <h2>Welcome to Women with Wings!</h2>
+                <p>During her flight training in 2020, Beth Ramirez created Women with Wings to support, recognize, and encourage women in aviation no matter where they are in their aviation journey.</p>
+                <p>Women with Wings is open to women of all ages and stages of their careers/training. We offer mentorship to ladies starting out in the industry and ambassadorship to promote our mission worldwide as well as scholarships.</p>
+                <p>We are also starting a new program, Girls With Wings, for girls ages 7-17. This first year will be completely online and we will send out an activity box every 3-4 months and work on the activities together once a month!</p>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHDtWYH9iB2qceWOnrHeLcxHboXddjJLjNkTik_gPkYDWHqw/viewform" target="_blank">Click here to sign up for GWW!</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Women With Wings. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/womenwithwings_/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/womenwithwings11/" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 1700);
+        }
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+    </script>
+</body>
+</html>
